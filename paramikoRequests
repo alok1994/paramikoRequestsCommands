@@ -87,3 +87,7 @@ chmod 600: Owner can read and write, nothing else for anyone
 With this next one, owner will have read and write while group and everyone else will have no permissions whatsoever.
 
 chmod 600 /path/to/file
+
+following commad to check the  open ports
+--------------------------------------
+sudo lsof -i -P -n | grep LISTEN
